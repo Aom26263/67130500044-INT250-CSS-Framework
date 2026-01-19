@@ -1,0 +1,129 @@
+* {
+    margin: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+#home {
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-bottom: 2cm;
+    background-color: #6a5acd;
+}
+
+header {
+    font-size: 30px;
+    color: #c891fc;
+    float: left;
+    padding-left: 2cm;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 1cm;
+}
+
+.topmenu {
+    color: lightgray;
+    background-color: #540163;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+}
+
+.topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: purple;
+}
+
+section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+figure {
+    float: left;
+    width: 200px;
+    justify-content: auto;
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.b {
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.temperature {
+    border-top-color: green;
+}
+
+.weight {
+    border-top-color: coral;
+}
+
+.distance {
+    border-top-color: cyan;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.iconbutton {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: cyan;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+}
+
+.iconbutton img {
+    width: 30px;
+}
+
+footer {
+    background-color: lightpink;
+    margin-top: 20px;
+}

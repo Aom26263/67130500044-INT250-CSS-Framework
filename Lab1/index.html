@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="home">
+        <header>Unit Conversions</header>
+        <nav>
+            <div class="topdiv">
+                <a href="#temperature"><button class="topmenu">Temperature</button></a>
+                <a href="#weight"><button class="topmenu">Weight</button></a>
+                <a href="#distance"><button class="topmenu">Distance</button></a>
+            </div>
+        </nav>
+        <div>
+            <section id="temperature" class="b temperature">
+                <div id="tmp">
+                    <figure>
+                        <img src="termo.png" width="200px">
+                        <figcaption>Celsius to Fahrenheit Conversion</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>Temperature</legend>
+                            <label for="celsius">Celsius</label><br>
+                            <input type="number" id="celsius"><br><br>
+                            <button onclick="temperature()">Convert</button><br><br>
+                            <label for="fahrenheit">Fahrenheit</label><br>
+                            <input type="number" id="fahrenheit">
+                        </fieldset>
+                    </article>
+                    <aside>To convert celsuis to fahrenheit yourself, use this formula replacing the 'C' with your temperature in celsuis: (C x 9/5) + 32</aside>
+                </div>
+            </section>
+            <section id="weight" class="b weight">
+                <div id="wgt">
+                    <figure>
+                        <img src="weight.png" width="200px">
+                        <figcaption>Kilograms to Pounds Conversion</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>Weight</legend>
+                            <label for="kilo">Kilograms</label><br>
+                            <input type="number" id="kilo"><br><br>
+                            <button onclick="weight()">Convert</button><br><br>
+                            <label for="pounds">Pounds</label><br>
+                            <input type="number" id="pounds">
+                        </fieldset>
+                    </article>
+                    <aside>To convert kilograms to pounds yourself, use this formula replacing the 'Kg' with your weight in kilograms: kg x 2.205</aside>
+                </div>
+            </section>
+            <section id="distance" class="b distance">
+                <div id="dst">
+                    <figure>
+                        <img src="speedo.png" width="200px">
+                        <figcaption>Kilometer to Mile Conversion</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>Distance</legend>
+                            <label for="km">Kilometers</label><br>
+                            <input type="number" id="km"><br><br>
+                            <button onclick="distance()">Convert</button><br><br>
+                            <label for="miles">Miles</label><br>
+                            <input type="number" id="miles">
+                        </fieldset>
+                    </article>
+                    <aside>To convert kiloeters to miles yourself, use this formula replacing the 'Km' with your distance in kilometers: km  ÷ 1.609</aside>
+                </div>
+            </section>
+        </div>
+    </section>
+    <div id="go-home" class="iconbutton">
+        <a href="#home">
+            <img src="home.png" width="30px" alt="Go Home">
+        </a>
+    </div>
+    <footer>
+        Learn more about HTML/CSS/JS as a part of INT250 CSS Framework
+    </footer>
+</body>
+</html>
