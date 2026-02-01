@@ -87,11 +87,9 @@ function addTask() {
 }
 
 function deleteTask(taskId) {
-    if (confirm('Do you want to delete this task?')) {
         tasks = tasks.filter(task => task.id !== taskId);
         saveToLocalStorage();
         renderTasks();
-    }
 }
 
 function toggleComplete(taskId) {
